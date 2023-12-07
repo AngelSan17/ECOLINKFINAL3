@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores primarios -->
+    <color name="colorPrimary">#4CAF50</color> <!-- Verde -->
+    <color name="colorPrimaryDark">#388E3C</color> <!-- Verde oscuro -->
+    <color name="colorAccent">#C8E6C9</color> <!-- Verde claro -->
+
+    <!-- Colores de la interfaz de usuario -->
+    <color name="textColorPrimary">#FFFFFF</color> <!-- Blanco -->
+    <color name="textColorSecondary">#212121</color> <!-- Gris oscuro -->
+
+    <!-- Colores adicionales para la UI -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Blanco -->
+    <color name="colorButtons">#4CAF50</color> <!-- Verde -->
+    <color name="colorInputField">#FFFFFF</color> <!-- Blanco -->
+</resources>

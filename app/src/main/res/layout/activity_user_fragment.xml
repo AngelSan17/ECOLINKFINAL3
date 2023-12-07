@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_85278a1f2a9eb77da4904df0eda437e"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+
+    <!-- ...otros componentes... -->
+
+
+    <ImageView
+        android:id="@+id/ivPerfil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:contentDescription="@string/descripcion_imagen"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/usuario" />
+
+    <Button
+        android:id="@+id/bCargarImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cargar_imagen"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname_hint"
+        android:inputType="textPersonName"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/etUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ubicacion_hint"
+        android:inputType="textPostalAddress"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:hint="@string/descripcion_hint"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:hint="@string/telefono_hint"
+        android:inputType="phone"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/bActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorButtons"
+        android:text="@string/actualizar_perfil"
+        android:textColor="@color/textColorPrimary" />
+
+</LinearLayout>

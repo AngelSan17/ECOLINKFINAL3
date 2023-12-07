@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_app"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <!-- Asegúrate de que el nombre del recurso coincida con el nombre del archivo de tu logo en la carpeta drawable --><![CDATA[
+    android:contentDescription="@string/logo_description"
+    android:layout_gravity="center"
+    android:layout_marginBottom="24dp"/>
+
+    ]]>
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/loginBotton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/registerBotton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"/>
+
+</LinearLayout>

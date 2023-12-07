@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ECOLINK</string>
+    <string name="logo_description">Logo de ECOLINK</string>
+    <string name="welcome_message">Bienvenido a ECOLINK</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="prompt_register">¿No tienes una cuenta? ¡Regístrate aquí!</string>
+
+    <!-- Cadena de sugerencia para el campo de nombre(s) -->
+    <string name="name_hint">Nombre(s)</string>
+
+    <!-- Cadena de sugerencia para el campo de apellido -->
+    <string name="surname_hint">Apellidos</string>
+
+    <!-- Corrigiendo las cadenas existentes para que coincidan con su uso -->
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button_label">Iniciar sesión</string>
+    <string name="register_button_label">Registrarse</string>
+
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+
+    <!-- ... tus otras cadenas de texto ... -->
+
+    <string name="descripcion_imagen">Descripción de la imagen</string>
+    <!-- Tus otras cadenas de texto aquí -->
+
+    <!-- Nuevas cadenas de texto para validación y mensajes de error -->
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="error_invalid_email">Este correo electrónico no es válido</string>
+    <string name="error_passwords_not_matching">Las contraseñas no coinciden</string>
+    <string name="error_password_too_short">La contraseña es demasiado corta</string>
+    <string name="registration_success">Registro exitoso</string>
+    <string name="action_continue">Continuar</string>
+    <!-- Agrega aquí cualquier otra cadena que necesites -->
+
+    <string name="ubicacion_hint">Ubicación</string>
+    <string name="descripcion_hint">Descripción</string>
+    <string name="actualizar_perfil">Actualizar Perfil</string>
+    <string name="telefono_hint">Teléfono</string>
+    <string name="cargar_imagen">Cargar Imagen</string>
+
+    <string name="tab_text_1">Comunidad</string>
+    <string name="tab_text_2">Eventos</string>
+    <string name="tab_text_3">Usuario</string>
+
+
+    <string-array name="event_filters">
+        <item>Todos los eventos</item>
+        <item>Playa</item>
+        <item>Limpieza grupal</item>
+        <item>Comunidad local</item>
+        <!-- Añade más filtros según sea necesario -->
+
+    </string-array>
+</resources>
